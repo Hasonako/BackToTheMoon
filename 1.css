@@ -97,11 +97,79 @@ li{
 	text-align: center;
 }
 
+.button img{
+	position: absolute;
+	right: 20px;
+	top: 17px;
+}
+
 .advantage-menu{
 	color:#D4D4D4;
 	text-align: left;
 	margin-left: 80px;
 	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.columns-container {
+  	display: flex;
+}
+
+.columns-container .left-column {
+  	width: 440px;
+  	margin-right: 80px;
+  	margin-left: 400px;
+}
+
+.columns-container .right-column {
+  	width: 440px;
+}
+
+.moon-vacation {
+  	padding-top: 80px;
+  	padding-bottom: 45px;
+}
+
+.moon-vacation .lead {
+  	margin-top: 0;
+  	margin-bottom: 50px;
+  	font-weight: bold;
+  	font-size: 24px;
+  	line-height: 30px;
+  	font-family: "Courier New", monospace;
+}
+
+.recommendations-list {
+  	margin: 0;
+  	padding: 0;
+  	padding-left: 30px;
+  	list-style: none;
+}
+
+.recommendations-list li {
+  	position: relative;
+  	margin-bottom: 10px;
+}
+
+.recommendations-list li::before {
+  	content: "";
+	position: absolute;
+  	left: -25px;
+  	top: 5px;
+  	width: 8px;
+  	height: 8px;
+  	border-radius: 50%;
+  	background-color: #feca30;
+}
+
+.left-column p{
+	width: 162px;
+	height: 36px;
+	margin-top: 130px; 
+	margin-left: 160px; 
+	color: #555555;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
