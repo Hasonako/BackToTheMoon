@@ -10,6 +10,11 @@ body{
 	width: 100%;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.container_firstscreen{
+	width: 970px;
+	margin: 0 auto;
+	height: 523px;
+}
 
 .advantage{
 	background-color: #131313;
@@ -29,10 +34,7 @@ footer{
 }
 
 nav{
-	padding-left: 160px;
-	color: white;
-	padding-top: 0;
-	padding-bottom: 0;
+color: white;
 }
 
 .left{
@@ -62,7 +64,6 @@ li{
 	color: white;
 	position: absolute;
 	width: 235.68px;
-	margin-left: 350px;
 	margin-top: 200px;
 	font-size: 45px;
 }
@@ -71,7 +72,6 @@ li{
 	color:#C4C4C4;
 	position: absolute;
 	width: 250.54px;
-	margin-left: 350px;
 	margin-top: 370px;
 	font-size: 13px;
 }
@@ -89,12 +89,11 @@ li{
 	position: absolute;
 	width: 230px;
 	height: 50px;
-	left: 350px;
+	left: 300px;
 	top: 470px;
 	border-radius: 30px;
 	border: 2px;
 	padding-top: 0 auto;
-	text-align: center;
 }
 
 .button img{
@@ -114,54 +113,57 @@ li{
 }
 
 .columns-container {
-  	display: flex;
+  display: flex;
+
 }
 
 .columns-container .left-column {
-  	width: 440px;
-  	margin-right: 80px;
-  	margin-left: 400px;
+  width: 440px;
+  margin-right: 80px;
+  margin-left: 400px;
+ 	
 }
 
 .columns-container .right-column {
-  	width: 440px;
+  width: 440px;
+  
 }
 
 .moon-vacation {
-  	padding-top: 80px;
-  	padding-bottom: 45px;
+  padding-top: 80px;
+  padding-bottom: 45px;
 }
 
 .moon-vacation .lead {
-  	margin-top: 0;
-  	margin-bottom: 50px;
-  	font-weight: bold;
-  	font-size: 24px;
-  	line-height: 30px;
-  	font-family: "Courier New", monospace;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Courier New", monospace;
 }
 
 .recommendations-list {
-  	margin: 0;
-  	padding: 0;
-  	padding-left: 30px;
-  	list-style: none;
+  margin: 0;
+  padding: 0px;
+  
+  list-style: none;
 }
 
 .recommendations-list li {
-  	position: relative;
-  	margin-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .recommendations-list li::before {
-  	content: "";
+  content: "";
 	position: absolute;
-  	left: -25px;
-  	top: 5px;
-  	width: 8px;
-  	height: 8px;
-  	border-radius: 50%;
-  	background-color: #feca30;
+  left: -25px;
+  top: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #feca30;
 }
 
 .left-column p{
@@ -173,4 +175,86 @@ li{
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
+}
+
+.site-footer {
+  padding-bottom: 80px;
+  color: #ffffff;
+  background-color: #131313;
+}
+
+.footer-columns-container {
+  display: flex;
+}
+
+.footer-columns-container .left-column {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 100px;
+}
+
+.footer-columns-container .right-column {
+  width: 720px;
+  margin-left: 200px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.logo-container .logo {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 14px;
+}
+
+.copyrights {
+  margin-top: auto;
+  color: #555555;
+}
+
+.footer-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu > li {
+  width: 181px;
+  margin-right: 120px;
+}
+
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #555555;
+}
+
+.footer-submenu {
+	margin-top: 50px;
+  	margin-left: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-submenu > p {
+	color: #888888;
+	width: 181px;
+	margin-bottom: 30px;
+}
+
+footer .right-column{
+	margin-left: 100px;
+	margin-top: 90px;
 }
